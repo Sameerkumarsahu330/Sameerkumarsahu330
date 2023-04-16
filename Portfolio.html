@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta lang="en-us">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+  <style>
+
+	*{box-sizing:border-box;}
+	body{
+		margin:0;
+		color:red;
+		background:black;
+	}
+
+	a{color:black;}
+
+	.flex-container{
+		display:flex;
+		width:50%;
+		margin:auto;
+	}
+
+	.flex-container > div{
+		height:820px;
+	}
+
+	.name{
+		font-family:sofia;
+		font-size:2rem;
+		margin:0;
+		text-align: center;
+	}
+
+	.name:hover{
+		text-shadow:0 0 20px white,0 0 20px white;
+	}
+
+	.sidebar{
+		flex:1;
+		background-color: darkred;
+		color:black;
+	}
+
+	.main{
+		flex:3;
+		background: black;
+		border:1px solid red;
+	}
+
+	.main-content{
+		padding:10px;
+	}
+
+	.main-content > ul{
+		list-style-type: circle;
+		margin:0;
+		padding:0;
+	}
+
+	.main-content > ul li{
+		margin:20px;
+	}
+
+	.main-content > h3{
+		display: inline-block;
+		margin:0;
+	}
+
+	.main-title{
+		border-top:1px solid red;
+		border-bottom:1px solid red;
+	}
+
+	.main-title > h3{
+		margin:0.5rem;
+		margin-left:1rem;
+	}
+
+	.title{
+		background:rgba(8,8,105,1);
+	}
+
+	.title > h2{
+		margin-left:1rem;
+		padding:2px;
+	}
+
+	.content{
+		margin:0.5rem;
+		text-align: center;
+	}
+
+	.bar{
+		float:right;
+		position:relative;
+		top:-2.5rem;
+		width:60%;
+		background:darkred;
+		border: 1px solid white;
+		color:rgba(8,8,105,1);
+	}
+
+	.progress{
+		background:rgba(8,8,105,1);
+		font-size:1rem;
+	}
+
+	.progress1{
+		width:20%;
+		transition:all 1s;
+	}
+
+	.progress2{
+		width:40%;
+		transition:all 1s;
+	}
+
+	.progress3{
+		width:60%;
+		transition:all 1s;
+	}
+
+	.progress4{
+		width:80%;
+		transition:all 1s;
+	}
+
+	.progress5{
+		width:100%;
+		transition:all 1s;
+	}
+
+	.progress1:hover,.progress2:hover,.progress3:hover,
+	.progress4:hover,.progress5:hover{
+		width:100%;
+	}
+
+	.sidebar div:hover{
+		box-shadow:0 0 8px black;
+	}
+
+	.main div:hover{
+		box-shadow: 0 0 16px red;
+	}
+
+	.material-symbols-outlined {
+		position:relative;
+		top:8px;
+		margin-right:10px;
+  		font-variation-settings:
+  		'FILL' 1,
+  		'wght' 500,
+  		'GRAD' 0,
+  		'opsz' 48
+	}
+
+	.hello{
+		display:inline-block;
+		font-size: 3rem;
+		position: relative;
+		top:2rem;
+		right:15rem;
+		animation: hello 8s;
+		animation-iteration-count: infinite;
+	}
+
+	.i{
+		display:inline-block;
+		font-size: 3rem;
+		position: relative;
+		top:30rem;
+		right:20rem;
+	}
+
+	@keyframes hello{
+		0%{position: relative;top:2rem;right:15rem;}
+		50%{position:relative;top:2rem;right:-70rem;}
+		100%{position:relative;top:2rem;right:15rem;}
+	}
+
+	@media screen and (max-width:810px){
+		.flex-container{
+			width:100%;
+		}
+	}
+
+  </style>
+ </head>
+<body>
+	<div class="flex-container">
+		<div class="hello">Hello</div>
+		<<div class="i">I</div>
+		<div class="sidebar">
+			<div class="content">
+			<h1 class="name">Sameer Kumar Sahu</h1>
+			<p>Aspiring Web Developer</p></div>
+			
+			<div class="title"><h2 style="color:white;">Contact</h2></div>
+			<div class="content">
+				<div><h3><i class="material-symbols-outlined">call</i></h3>
+				<p>8144984055</p>
+				</div>
+				<div><h3><i class="material-symbols-outlined">email</i></h3>
+				<p><a href="#">sameerkumarsahu330@gmail.com</a></p></div>
+				<div><h3>Github</h3>
+				<p><a href="#">https://github.com/Sameerkumarsahu330</a></p></div>
+				<div><h3>LinkedIn</h3>
+				<p><a href="www.linkedin.com/in/sameer-kumar-sahu-851053224">Sameer Kumar Sahu</a></p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="main">
+			
+			<div class="main-content">
+				My objective is "To work in an organization that provides me opportunity to work in a challenging, team oriented environment
+				where I can apply my knowledge, creativity, innovation , logic and gain knowledge about new technologies which will help me to move forward in my career." 
+			</div>
+			
+			<div class="main-title"><h3>Educational Qualifications</h3></div>
+			<div class="main-content">
+				<ul>
+					<li>2015 - 10th BSE,Odisha</li>
+					<li>2017 - 12th CHSE,Odisha</li>
+					<li>2023 - Bachelor of Computer Application,Berhampur University</li>
+				</ul>
+			</div>
+			<div class="main-title"><h3>Technical Skills</h3></div>
+			<div class="main-content">
+				<div><h3>C</h3>
+				<div class="bar"><div class="progress progress3">Intermediate</div></div></div>
+				<div><h3>C++</h3>
+				<div class="bar"><div class="progress progress3">Intermediate</div></div></div>
+				<div><h3>Java</h3>
+				<div class="bar"><div class="progress progress4">advance</div></div></div>
+				<div><h3>HTML</h3>
+				<div class="bar"><div class="progress progress4">advance</div></div></div>
+				<div><h3>CSS</h3>
+				<div class="bar"><div class="progress progress4">advance</div></div></div>
+				<div><h3>JavaScript</h3>
+				<div class="bar"><div class="progress progress3">Intermediate</div></div></div>
+				<div><h3>Git</h3>
+				<div class="bar"><div class="progress progress2">Beginner</div></div></div>
+				<div><h3>Github</h3>
+				<div class="bar"><div class="progress progress2">Beginner</div></div></div>
+				<div><h3>Bootstrap</h3>
+				<div class="bar"><div class="progress progress1">Beginner</div></div></div>
+				<div><h3>MySQL</h3>
+				<div class="bar"><div class="progress progress1">Beginner</div></div></div>
+				<div><h3>React.js</h3>
+				<div class="bar"><div class="progress progress1">Beginner</div></div></div>
+			</div>
+			<div class="main-title"><h3>Strengths</h3></div>
+			<div class="main-content">
+				<ul>
+					<li>Good analytical skills and comprehensive problem solving ability</li>
+					<li>Ability to learn new technologies and work in fast</li>
+					<li>Positive attitude and enthusiastic in teamwork</li>
+				</ul>
+			</div>
+		</div>
+		<<div class="am">am</div>
+	</div>
+</body>
+</html>
+
+
