@@ -1,8 +1,4 @@
 <?php
-include 'header.php';
-include 'dbconn.php';
-
-echo '<h1 class="container text-center">This is a page for fetching data from database</h1>';
 
 // execute query
 $sql = "SELECT serialnumber,name,age,gender,address,mail,phone FROM users";
@@ -14,8 +10,9 @@ if (!$result) {
 }
 
 // display data in table
-echo '<h2 class="text-center mt-5">user_details table</h2>';
-echo '<table class="container table table-hover table-bordered mt-3">
+echo '	<div class="container">
+		<h2 class="text-center mt-5">User Details</h2>
+		<table class="table table-hover table-bordered mt-3 bg-info">
 		<tr>
 		<th>Sno</th>
 		<th>Name</th>
@@ -39,8 +36,6 @@ while ($row = mysqli_fetch_assoc($result)) {
     echo '<tr><td>' . $serialnumber .'</td>' . '<td>' . $name .'</td>' . '<td>' . $age . '</td>' . '<td>' . $gender . '</td>' . '<td>' . $address . '</td>' . '<td>' . $mail . '</td>' . '<td>' . $phone . '</td></tr>';
 }
 
-echo '</table>';
+echo '</table></div>';
 
-// close connection
-mysqli_close($conn);
 ?>

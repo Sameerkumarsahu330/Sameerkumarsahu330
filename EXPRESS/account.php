@@ -67,7 +67,6 @@ echo '
 			</tr>
 		</table>
 		<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">Edit your details</button>
-		<a href="see.php" class="btn btn-primary">See</a>
 		</div>
 
 		<div class="offcanvas offcanvas-center" id="demo">

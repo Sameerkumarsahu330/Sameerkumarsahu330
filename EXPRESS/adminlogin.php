@@ -19,7 +19,7 @@
             session_start();
             $_SESSION['loggedin'] = true;
             $_SESSION['userName'] = $userName;
-            header("location: index.php");
+            header("location: admindash.php");
         }
         
         else{
