@@ -1,6 +1,4 @@
-# Hi there 👋,
-# I'm Sameer Kumar Sahu  
----
+# Hi there 👋, I'm Sameer Kumar Sahu  
 
 🚀 **Frontend Developer | Angular | React | TypeScript**  
 💻 Passionate about building modern, scalable, and responsive web applications.  
