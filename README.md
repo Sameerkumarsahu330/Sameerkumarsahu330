@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif" width="120px" alt="Hello GIF">
   <h1>Welcome to My GitHub! 👋</h1>
-  <h3>I'm Sameer Kumar Sahu - Frontend Developer | Angular | React</h3>
+  <h3>I'm Sameer Kumar Sahu - Full Stack Developer</h3>
 </div>
 
 <p align="center">
@@ -14,9 +14,9 @@
 
 ### 🌟 About Me  
 
-- 💼 **Current Focus**: Building scalable web apps using **Angular 19**, **TypeScript**, and **React**.  
+- 💼 **Current Focus**: Building scalable web apps using **Angular 18+**, **TypeScript**, **React**, **Node.js** and **MongoDB**.  
 - 🌱 **Learning**: Deepening knowledge of **React.js** and **Cloud/DevOps basics**.  
-- 💻 **Passionate About**: Authentication systems (Auth0 & JWT), responsive UI, and building real-world client projects.  
+- 💻 **Passionate About**: Web and Android Applications, cloud applications, AI Automation.  
 - 📫 **Get in Touch**: [sameerkumarsahu330@gmail.com](mailto:sameerkumarsahu330@gmail.com)  
 
 ---
@@ -26,6 +26,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white" alt="Angular">
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript">
   <img src="https://img.shields.io/badge/RxJS-B7178C?logo=reactivex&logoColor=white" alt="RxJS">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black" alt="JavaScript">
