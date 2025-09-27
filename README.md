@@ -10,8 +10,6 @@
   </a>
 </p>
 
----
-
 ### 🌟 About Me  
 
 - 💼 **Current Focus**: Building scalable web apps using **MEAN** and **MERN** stack.  
